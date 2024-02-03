@@ -1,0 +1,11 @@
+/**
+ * Do not edit directly
+ * Generated on Sat, 03 Feb 2024 04:59:10 GMT
+ */
+
+:root {
+  --primitive-red-500: #c06262ff;
+  --primitive-red-100: #eaacacff;
+  --ds-color-cta-button-primary-background-hover: var(--primitive-red-500);
+  --ds-color-cta-button-primary-background-active: var(--primitive-red-100);
+}

@@ -1,0 +1,78 @@
+{
+  "ds": {
+    "color": {
+      "cta": {
+        "button": {
+          "primary": {
+            "background": {
+              "active": {
+                "type": "color",
+                "value": "{primitive.red-100}",
+                "extensions": {
+                  "org.lukasoppermann.figmaDesignTokens": {
+                    "mode": "Color",
+                    "collection": "DS",
+                    "scopes": [
+                      "ALL_SCOPES"
+                    ],
+                    "variableId": "VariableID:1:4",
+                    "exportKey": "variables"
+                  }
+                }
+              },
+              "hover": {
+                "type": "color",
+                "value": "{primitive.red-500}",
+                "extensions": {
+                  "org.lukasoppermann.figmaDesignTokens": {
+                    "mode": "Color",
+                    "collection": "DS",
+                    "scopes": [
+                      "ALL_SCOPES"
+                    ],
+                    "variableId": "VariableID:1:5",
+                    "exportKey": "variables"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "primitive": {
+    "red-100": {
+      "type": "color",
+      "value": "#eaacacff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "mode": "Mode 1",
+          "collection": "Primitive",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:2:13",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "red-500": {
+      "type": "color",
+      "value": "#c06262ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "mode": "Mode 1",
+          "collection": "Primitive",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:2:14",
+          "exportKey": "variables"
+        }
+      }
+    }
+  }
+}

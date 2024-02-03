@@ -1,0 +1,4 @@
+html {
+  background-color: var(--primitive-red-500);
+  color: var(--primitive-red-100)
+}

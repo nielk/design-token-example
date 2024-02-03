@@ -1,0 +1,21 @@
+{
+  "name": "token-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc --noEmit --watch --preserveWatchOutput & vite serve --config ./vite.config.ts --port 3000",
+    "build": "tsc && vite build --config ./vite.config.ts",
+    "preview": "vite preview --config ./vite.config.ts",
+    "token": "style-dictionary build --config ./token/config.json",
+    "token:clean": "style-dictionary clean --config ./token/config.json"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "style-dictionary": "3.9.2",
+    "typescript": "5.3.3",
+    "vite": "5.0.12",
+    "vite-tsconfig-paths": "^4.3.1"
+  }
+}
